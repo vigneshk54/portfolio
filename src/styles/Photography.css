@@ -1,0 +1,155 @@
+.photo-h1{
+    font-weight: bold;
+    text-align: left;
+    font-size: 41px;
+}
+
+.h2{
+    margin-bottom: 50px;
+}
+
+.videography{
+    margin-top:50px;
+    width: 100%;
+    height: auto !important;
+}
+
+.footer{
+    position: relative;
+    /* bottom: 0; */
+    /* width: 100%; */
+}
+
+.blo>video{
+    height: 300px;
+    width: 100%;
+}
+
+
+
+.blo{
+    margin-top:30px;
+}
+
+.ill{
+    margin-top: 50px;
+}
+
+.ill{
+    height: 280px;
+}
+
+.ill-5{
+    height: 210px;
+}
+
+.ill-6,.ill-7,.ill-8{
+    height: 100%;
+}
+
+.gra{
+    height: 300px;
+    contain: cover;
+}
+
+.back{
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 993px){
+    .photo-h1{
+        margin-top: 35px;
+        margin-bottom: -30px;
+        font-size: 24px;
+        margin-left: 3%;
+    }
+    .h2{
+        margin-bottom: 35px;
+    }
+    .ill,.ill-5{
+        height: auto;
+        object-fit: cover;
+    }
+    .ill-6,.ill-7,.ill-8{
+        height: auto;
+        object-fit: cover;
+    }
+    .footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .gra{
+        height: auto;
+        margin-top: 40px;
+    }
+    .gra:nth-child(1){
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 994px) and (max-width: 1340px){
+    .ill-5{
+        height: 130px
+    }
+    .ill-6,.ill-7,.ill-8{
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .gra:nth-child(1){
+        margin-top: -5px;
+    }
+}
+
+@media only screen and (min-width: 1680px){
+    .back{
+        font-size: 21px;
+    }.footer{
+        position: relative;
+        /* bottom: 0; */
+        /* width: 100%; */
+    }
+    .blo>video{
+        margin-top:50px;
+    }
+    .gra{
+        height: 380px;
+    }
+}
+
+@media only screen and (min-width: 2560px){
+    .back{
+        font-size: 38px;
+    }
+    .photo-h1{
+        margin-top: 45px;
+        font-size: 91px;
+    }
+    .photo-co{
+        width: 85%;
+    }
+    .blo{
+        margin-top: 100px;
+    }
+    .ill{
+        height: 350px;
+    }
+    .ill-6,.ill-7,.ill-8{
+        height: 100%;
+    }
+    .gra{
+        height: 600px;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .ill{
+        margin: 100px auto 30px;
+    }
+    .blo>video{
+        height: 400px;
+        width: 100%;
+    }
+}
