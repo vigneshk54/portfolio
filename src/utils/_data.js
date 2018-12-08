@@ -15,7 +15,7 @@ import video4 from '../assets/Motiongraphics/Macintosh.mp4';
 import video5 from '../assets/Motiongraphics/Morph.mp4';
 import video6 from '../assets/Motiongraphics/YouTubeintro-TechLila.mp4';
 
-import g1 from '../assets/Graphicdesign/A4 Copy1.jpg';
+import g1 from '../assets/Graphicdesign/A4Copy1.jpg';
 import g2 from '../assets/Graphicdesign/Appk_2.jpg';
 // import g3 from '../assets/Graphicdesign/CAT_80.jpg';
 import g4 from '../assets/Graphicdesign/PANTHEONMASTHEAD.jpg';

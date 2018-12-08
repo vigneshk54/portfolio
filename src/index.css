@@ -531,11 +531,7 @@ img{
   }
   }
 
-@media screen and (device-width:1024px){
- .work-p,.about-tag,.test-p{
-	font-size: 16px !important;
-  }
-}
+
 
 /* ipad pros and similar tabs */
 
@@ -624,6 +620,12 @@ img{
     line-height: 30px;
   }
 
+}
+
+@media screen and (device-width:1024px){
+ .work-p,.about-tag,.test-p{
+	font-size: 16px !important;
+  }
 }
 
 /* smaller laptops */

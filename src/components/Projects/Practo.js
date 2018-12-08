@@ -43,7 +43,7 @@ export default class Practo extends React.Component{
                     <img className="img-practo" src={practo_main} alt="Practo Mobile" title="Practo Mobile"/>
                     <br className="mac"/> <br className="mac"/>
                     <p className="about-practo" style={{textAlign:'center'}}>
-                        Practo is a consumer-facing health-tech company funded by <br />
+                        Practo is a consumer-facing health-tech company funded by <br className="mac"/>
                         Google, Sequoia, Tencent & others. 
                     </p>
                     <br className="hide"/> <br className="hide"/> <br className="mac"/>

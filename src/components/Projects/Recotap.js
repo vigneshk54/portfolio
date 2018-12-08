@@ -41,7 +41,7 @@ export default class Recotap extends React.Component{
                     <br className="mac"/> <br className="mac"/>
                     <p className="about-practo" style={{textAlign:'center'}}>
                     Impel Labs Pvt. Ltd. is a seed funded tech startup based in Bengaluru. The company's product - <br/>
-                    Recotap - helps Digital Marketers personalise Customer Experience <br/>
+                    Recotap - helps Digital Marketers personalise Customer Experience <br className="mac"/>
                     for their product(s), and improve ROI.
                     </p>
                     <br className="hide"/> <br className="hide"/> <br className="mac"/>
