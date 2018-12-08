@@ -607,11 +607,7 @@ img{
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1024px){
-  .bottom-h3{
-    font-size: 18px !important;
-  }
-}
+
 
 @media screen and (min-width: 992px) and (max-width: 1096px){
   
@@ -619,14 +615,22 @@ img{
     font-size: 12px !important;
     line-height: 30px;
   }
+.mac{
+display:none;
+}
 
 }
 
-@media screen and (device-width:1024px){
- .work-p,.about-tag,.test-p{
-	font-size: 16px !important;
+@media screen and (min-width: 992px) and (max-width: 1024px){
+  .bottom-h3{
+    font-size: 18px !important;
+  }
+.work-p,.about-tag,.test-p{
+	font-size: 14px !important;
   }
 }
+
+
 
 /* smaller laptops */
 @media screen and (min-width: 992px) and (max-width: 1282px){
