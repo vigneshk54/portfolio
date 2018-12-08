@@ -611,6 +611,15 @@ img{
   }
 }
 
+@media screen and (min-width: 992px) and (max-width: 1096px){
+  
+  .about-tag,.work-p,.test-p{
+    font-size: 12px !important;
+    line-height: 30px;
+  }
+
+}
+
 /* smaller laptops */
 @media screen and (min-width: 992px) and (max-width: 1282px){
   .bottom-h3{
@@ -629,7 +638,7 @@ img{
     font-size: 32px;
   }
   .about-tag,.work-p,.test-p{
-    font-size: 12px;
+    font-size: 14px;
     line-height: 30px;
   }
   .ui-thumb>h1{
