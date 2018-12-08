@@ -529,6 +529,12 @@ img{
   .container{
     width: 100%
   }
+  }
+
+@media screen and (device-width:1024px){
+ .work-p,.about-tag,.test-p{
+	font-size: 14px !important;
+  }
 }
 
 /* ipad pros and similar tabs */
